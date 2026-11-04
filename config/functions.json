@@ -553,15 +553,15 @@
     "rom": "0x08002BB8"
   },
   {
-    "end": "0x08002BEC",
-    "instrs": 6,
+    "end": "0x08002C06",
+    "instrs": 19,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x08002BE0"
   },
   {
-    "end": "0x08002C14",
-    "instrs": 6,
+    "end": "0x08002C36",
+    "instrs": 23,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x08002C08"
