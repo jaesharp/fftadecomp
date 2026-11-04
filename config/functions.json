@@ -21154,6 +21154,13 @@
     "rom": "0x080C7E78"
   },
   {
+    "end": "0x080C7EA2",
+    "instrs": 7,
+    "kind": "call",
+    "mode": "thumb",
+    "rom": "0x080C7E94"
+  },
+  {
     "end": "0x080C817C",
     "instrs": 224,
     "kind": "thumb-prologue",
