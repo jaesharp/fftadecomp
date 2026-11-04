@@ -21084,8 +21084,8 @@
     "rom": "0x080C7C40"
   },
   {
-    "end": "0x080C7C54",
-    "instrs": 6,
+    "end": "0x080C7CC0",
+    "instrs": 52,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080C7C48"
@@ -27658,7 +27658,7 @@
   },
   {
     "end": "0x080F0BFC",
-    "instrs": 158,
+    "instrs": 151,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080F0AC0"
