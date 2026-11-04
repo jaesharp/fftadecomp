@@ -15379,6 +15379,13 @@
     "rom": "0x08085374"
   },
   {
+    "rom": "0x08085378",
+    "end": "0x0808537A",
+    "instrs": 1,
+    "kind": "call",
+    "mode": "thumb"
+  },
+  {
     "end": "0x080853A0",
     "instrs": 16,
     "kind": "thumb-prologue",
