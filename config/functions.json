@@ -15834,6 +15834,13 @@
     "rom": "0x0808A158"
   },
   {
+    "end": "0x0808A1EA",
+    "instrs": 1,
+    "kind": "callback-literal",
+    "mode": "thumb",
+    "rom": "0x0808A1E8"
+  },
+  {
     "end": "0x0808A268",
     "instrs": 51,
     "kind": "thumb-prologue",
