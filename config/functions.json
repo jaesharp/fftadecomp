@@ -3129,11 +3129,18 @@
     "rom": "0x0800FF00"
   },
   {
-    "end": "0x08010004",
-    "instrs": 78,
+    "end": "0x0800FFF8",
+    "instrs": 65,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x0800FF68"
+  },
+  {
+    "end": "0x08010004",
+    "instrs": 3,
+    "kind": "thumb-leaf",
+    "mode": "thumb",
+    "rom": "0x0800FFF8"
   },
   {
     "end": "0x08010056",
