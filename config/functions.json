@@ -21126,8 +21126,8 @@
     "rom": "0x080C7DC8"
   },
   {
-    "end": "0x080C7DFA",
-    "instrs": 7,
+    "end": "0x080C7E36",
+    "instrs": 37,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080C7DEC"
