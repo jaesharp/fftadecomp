@@ -13076,11 +13076,18 @@
     "rom": "0x08062248"
   },
   {
-    "end": "0x08062430",
-    "instrs": 118,
+    "end": "0x080623C8",
+    "instrs": 60,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x08062344"
+  },
+  {
+    "rom": "0x080623C8",
+    "end": "0x08062430",
+    "instrs": 41,
+    "kind": "thumb-prologue",
+    "mode": "thumb"
   },
   {
     "end": "0x08062548",
