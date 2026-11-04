@@ -1,0 +1,52 @@
+#include "ffta.h"
+
+typedef struct {
+    u8 unknown_0000[0x1F6A];
+    u8 selection;
+    u8 remainder;
+    u8 unknown_1f6c[0x2FBB - 0x1F6C];
+    u8 field_2fbb;
+} State;
+
+typedef struct {
+    u8 unknown_000[0x4DD];
+    u8 field_4dd;
+} Context;
+
+extern State g_state_02000000;
+extern Context *g_state_03002810;
+extern u8 func_080C9540(u16 bitIndex);
+extern void func_080CBF34(void);
+extern s32 func_08142950(s32 numerator, s32 denominator);
+
+/* Target [0x08035E04, 0x08035F8C): 30b50848084940180478084893f096fb0006002810d006480068064a8018032121e00000000000026a1f00001102000010280003dd040000054893f07ffb000600280bd0034800680349401802210ae00602000010280003dd04000008480068084a801801210170362093f067fb000600280dd0044a05481118062059e0000010280003dd040000000000026a1f0000054893f053fb000600280bd0034a04481118052045e0000015020000000000026a1f0000054893f041fb000600280bd0034a04481118042033e0000011020000000000026a1f00008320800093f02efb0006002808d0024a02481118032020e0000000026a1f0000054893f01ffb000600280bd0034a04481118022011e0000009020000000000026a1f0000064893f00dfb0006030e002b0cd0044a0448111801200870151c0ae006020000000000026a1f00000c490d4a881803700d1c0c4968180078013814210cf1f8fc094aa9180870064968180078844201d095f0e0ff30bc01bc00470000000000026a1f0000bb2f00006b1f0000 */
+void func_08035E04(void)
+{
+    u8 previous = g_state_02000000.selection;
+
+    if (func_080C9540(0x211))
+        g_state_03002810->field_4dd = 3;
+    else if (func_080C9540(0x206))
+        g_state_03002810->field_4dd = 2;
+    else
+        g_state_03002810->field_4dd = 1;
+
+    if (func_080C9540(0x36))
+        g_state_02000000.selection = 6;
+    else if (func_080C9540(0x215))
+        g_state_02000000.selection = 5;
+    else if (func_080C9540(0x211))
+        g_state_02000000.selection = 4;
+    else if (func_080C9540(0x20C))
+        g_state_02000000.selection = 3;
+    else if (func_080C9540(0x209))
+        g_state_02000000.selection = 2;
+    else if (func_080C9540(0x206))
+        g_state_02000000.selection = 1;
+    else
+        g_state_02000000.selection = 0;
+
+    g_state_02000000.remainder = func_08142950(g_state_02000000.field_2fbb - 1, 20);
+    if (previous != g_state_02000000.selection)
+        func_080CBF34();
+}
