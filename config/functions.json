@@ -9709,8 +9709,8 @@
     "rom": "0x08039424"
   },
   {
-    "end": "0x08039DE4",
-    "instrs": 100,
+    "end": "0x08039DF4",
+    "instrs": 87,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x08039D1C"
