@@ -15604,7 +15604,7 @@
   },
   {
     "end": "0x08088CDC",
-    "instrs": 532,
+    "instrs": 448,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080888B4"
