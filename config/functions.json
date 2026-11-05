@@ -22092,7 +22092,7 @@
     "rom": "0x080CB980"
   },
   {
-    "end": "0x080CB9AC",
+    "end": "0x080CB9B0",
     "instrs": 8,
     "kind": "call",
     "mode": "thumb",
