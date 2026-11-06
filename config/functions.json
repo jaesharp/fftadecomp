@@ -24382,7 +24382,7 @@
   },
   {
     "end": "0x080D5594",
-    "instrs": 566,
+    "instrs": 546,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080D5128"
