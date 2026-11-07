@@ -16948,14 +16948,14 @@
   },
   {
     "end": "0x08099878",
-    "instrs": 14,
+    "instrs": 11,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x0809985C"
   },
   {
     "end": "0x08099894",
-    "instrs": 14,
+    "instrs": 11,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x08099878"
