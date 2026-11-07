@@ -23829,7 +23829,7 @@
   },
   {
     "end": "0x080D2E6C",
-    "instrs": 6,
+    "instrs": 5,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080D2E60"
