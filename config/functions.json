@@ -17255,8 +17255,8 @@
     "rom": "0x0809A070"
   },
   {
-    "end": "0x0809A0CC",
-    "instrs": 24,
+    "end": "0x0809A0C6",
+    "instrs": 20,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x0809A09C"
