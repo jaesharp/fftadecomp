@@ -5,7 +5,7 @@
 * source SHA-256: `d62ed63870acf6abc1d6d5cd74e5b075daa7c19124343f8bf4fc8c64486ac9d1`
 * mapping SHA-256: `5c8fb909b0233ce1225d2707e3801425394cbf5c3617c9722df27cc0e120ff8e`
 * control flow: direct Thumb BL with ordinary ARM ABI call summaries
-* data symbols SHA-256: `3910da3dde61833e40c63a8374bd611c8ef67c8f45ca4bae3afe6ef12ee49470`
+* data symbols SHA-256: `f8e244b2c7ba9e62db0d5e8e800a43bed9cea22b832b2f6d454eda411b37c685`
 * compiler: `$HOME/agbcc/gcc/agbcc -mthumb-interwork -O2`
 * verified extent: complete ELF function symbol, including literal pools
 * relocations: none
