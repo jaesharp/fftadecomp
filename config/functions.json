@@ -771,21 +771,21 @@
   },
   {
     "end": "0x080035D0",
-    "instrs": 20,
+    "instrs": 17,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080035A8"
   },
   {
     "end": "0x080035F8",
-    "instrs": 20,
+    "instrs": 17,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080035D0"
   },
   {
     "end": "0x08003620",
-    "instrs": 20,
+    "instrs": 17,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x080035F8"
