@@ -33692,7 +33692,7 @@
   },
   {
     "end": "0x08132DDC",
-    "instrs": 44,
+    "instrs": 42,
     "kind": "thumb-prologue",
     "mode": "thumb",
     "rom": "0x08132D84"
