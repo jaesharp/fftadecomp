@@ -5397,7 +5397,7 @@
     "rom": "0x0801CAB8"
   },
   {
-    "end": "0x0801CB1A",
+    "end": "0x0801CB20",
     "instrs": 29,
     "kind": "thumb-prologue",
     "mode": "thumb",
