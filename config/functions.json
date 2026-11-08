@@ -25726,10 +25726,10 @@
   },
   {
     "end": "0x080DC31C",
-    "instrs": 24,
+    "instrs": 18,
     "kind": "thumb-prologue",
     "mode": "thumb",
-    "rom": "0x080DC2EC"
+    "rom": "0x080DC2F0"
   },
   {
     "end": "0x080DC34C",
