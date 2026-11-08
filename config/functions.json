@@ -2555,6 +2555,13 @@
     "rom": "0x0800C224"
   },
   {
+    "end": "0x0800C2C0",
+    "instrs": 39,
+    "kind": "thumb-prologue",
+    "mode": "thumb",
+    "rom": "0x0800C268"
+  },
+  {
     "end": "0x0800C2FC",
     "instrs": 17,
     "kind": "thumb-prologue",
